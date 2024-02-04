@@ -120,6 +120,9 @@ img {
 }
 
 .nav__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--title-color);
   font-weight: var(--font-semi-bold);
   transition: color 0.4s;
@@ -216,4 +219,25 @@ img {
   justify-content: center;
   align-items: center;
   padding: 10rem;
+}
+
+.card {
+  margin: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+.cardssection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
